@@ -38,6 +38,6 @@ function consoleError(errmsg) {
     console.log(errmsg);
 }
 function handleError(errmsg) {
-    console.log(errmsg);
+    throw new Error(errmsg);
 }
 exports.default = addTwo;
